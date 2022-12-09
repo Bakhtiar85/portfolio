@@ -12,7 +12,7 @@ const Touch = () => {
             <div className='max-w-[1000px] mx-auto h-full flex flex-col justify-center'>
                 <div className="grid md:grid-cols-2 items-center text-white text-center md:text-left px-5">
                     <div className="col-span-1">
-                        <p className="font-raleway md:text-3xl text-xl text-[#c0c0c0]">
+                        <p className="font-raleway md:text-3xl text-xl text-[#606060]">
                             Love to read from you.
                         </p>
                         <p className="font-ibmPlex lh-24px ls-1pr text-[18px] md:pr-6 text-justify">
