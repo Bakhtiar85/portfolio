@@ -11,20 +11,22 @@ import Upwork from './Upwork';
 import Projects from './Projects';
 import GitRepo from './GitRepo';
 import Touch from './Touch';
+import Footer from './Footer';
 
 const Home = () => {
   return (
     <>
-       <Navbar /> 
-       <Hero />
-       <Resume />
-       <Work />
-       <Upwork />
-       <Skills />
-       <Linkedin />
-       <Projects />
-       <GitRepo />
-       <Touch />
+      <Navbar />
+      <Hero />
+      <Resume />
+      <Work />
+      <Upwork />
+      <Skills />
+      <Linkedin />
+      <Projects />
+      <GitRepo />
+      <Touch />
+      <Footer />
     </>
   )
 }

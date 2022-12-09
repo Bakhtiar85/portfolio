@@ -48,44 +48,44 @@
             "name": "CSS"
         },{
             "id": 3,
-            "image": "imgs/bootstrap.png",
-            "name": "Bootstrap"
-        },{
-            "id": 4,
             "image": "imgs/tailwind.png",
             "name": "Tailwind CSS"
         },{
-            "id": 5,
+            "id": 4,
             "image": "imgs/javascript.png",
             "name": "JS"
         },{
-            "id": 6,
+            "id": 5,
             "image": "imgs/jquery.png",
             "name": "jQuery"
         },{
-            "id": 7,
+            "id": 6,
             "image": "imgs/jqueryui.png",
             "name": "jQuery UI"
         },{
-            "id": 8,
+            "id": 7,
             "image": "imgs/react.png",
             "name": "React JS"
         },{
-            "id": 9,
+            "id": 8,
             "image": "imgs/php.png",
             "name": "PHP"
         },{
-            "id": 10,
+            "id": 9,
             "image": "imgs/laravel.jpg",
             "name": "Laravel"
         },{
-            "id": 11,
+            "id": 10,
             "image": "imgs/googleAPI.png",
             "name": "Google APIs"
         },{
-            "id": 12,
+            "id": 11,
             "image": "imgs/restAPI.webp",
             "name": "Rest APIs"
+        },{
+            "id": 12,
+            "image": "imgs/bootstrap.png",
+            "name": "Bootstrap"
         }
     ],
     "2": [

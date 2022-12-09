@@ -11,7 +11,7 @@ const Touch = () => {
         <div id='getInTouch' className=' md:h-screen h-full w-full py-20'>
             <div className='max-w-[1000px] mx-auto h-full flex flex-col justify-center'>
                 <div className="grid md:grid-cols-2 items-center text-white text-center md:text-left md:px-5 px-2">
-                    <div className="col-span-1">
+                    <div className="col-span-1 md:mb-0 mb-4">
                         <p className="font-raleway md:text-3xl text-xl text-[#606060]">
                             Love to read from you.
                         </p>

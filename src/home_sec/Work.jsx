@@ -16,11 +16,11 @@ const Work = () => {
                     </p>
                 </div>
                 <div className=' flex flex-col justify-evenly gap-20'>
-                    <div className="grid md:grid-cols-2 items-center text-white text-center md:text-left px-5">
+                    <div className="h-full grid md:grid-cols-2 items-center text-white text-center md:text-left px-5">
                         <div className='project_div'>
                             <div className='tag font-ibmPlex lh-24px ls-1pr bg-[#fff6e9] text-[#ffa217]'>Java</div>
                             <div className='name font-raleway lh-28px'>CRM For Dental Workshop</div>
-                            <div className='desp lg:w-[420px] w-full font-ibmPlex lh-24px ls-1pr'>This was my first project, almost back in 2018. It was just a desktop based CRUD application built using JAVA and couple of third party libraries. The application was operational for a year.</div>
+                            <div className='desp md:h-[96px] lg:w-[420px] w-full font-ibmPlex lh-24px ls-1pr'>This was my first project, almost back in 2018. It was just a desktop based CRUD application built using JAVA and couple of third party libraries. The application was operational for a year.</div>
                             <div className='cal_btn mt-8 text-[#fff6e9] bg-[#ac7f3c] hover:bg-[#a06b01] duration-300'>
                                 <button className='text-[16px]'>
                                     Learn More
@@ -36,14 +36,14 @@ const Work = () => {
                             <img className='rounded-lg p_img float-right' src={fp1} alt="https://www.grandviewdentalcolorado.com/wp-content/uploads/family-dentist-720.jpg" />
                         </div>
                     </div>
-                    <div className="grid md:grid-cols-2 items-center text-white text-center md:text-left px-5">
+                    <div className="h-full grid md:grid-cols-2 items-center text-white text-center md:text-left px-5">
                         <div className='overflow-hidden mb-4'>
                             <img className='rounded-lg p_img' src={fp2} alt="https://restaurant.eatapp.co/hubfs/Restaurant-Tech-Webinar-Hero.png" />
                         </div>
                         <div className='project_div md:ml-8'>
                             <div className='tag font-ibmPlex lh-24px ls-1pr bg-[#D0E6FF] text-[#000AFF]'>C-Sharp</div>
                             <div className='name font-raleway lh-28px'>CRM For Resturants</div>
-                            <div className='desp lg:w-[420px] font-ibmPlex lh-24px ls-1pr'>Back in 2018, I started Upwork. And I got a chance to work for a client on his demand, I started working on C#. But after a week the client asks me to leave. So I stoped working. This was 2nd project.</div>
+                            <div className='desp md:h-[96px] lg:w-[420px] font-ibmPlex lh-24px ls-1pr'>Back in 2018, I started Upwork. And I got a chance to work for a client on his demand, I started working on C#. But after a week the client asks me to leave. So I stoped working. This was 2nd project.</div>
                             <div className='cal_btn mt-8 text-[#D0E6FF] bg-[#000AFF] hover:bg-[#35388f] duration-300'>
                                 <button className='text-[16px]'>
                                     Let's get started
@@ -56,11 +56,11 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="grid md:grid-cols-2 items-center text-white text-center md:text-left px-5">
+                    <div className="h-full grid md:grid-cols-2 items-center text-white text-center md:text-left px-5">
                         <div className='project_div'>
                             <div className='tag font-ibmPlex lh-24px ls-1pr bg-[#E0FFF8] text-[#2AB090]'>SMS-API</div>
                             <div className='name font-raleway lh-28px'>CRUD App for Tailors</div>
-                            <div className='desp lg:w-[420px] font-ibmPlex lh-24px ls-1pr'>This was 3rd saas application I build in my study duration with SMS-API integrated. With the grace of <strong>Allah</strong> it is still working in market. It is also desktop application, built on C-Sharp.</div>
+                            <div className='desp md:h-[96px] lg:w-[420px] font-ibmPlex lh-24px ls-1pr'>This was 3rd saas application I build in my study duration with SMS-API integrated. With the grace of <strong>Allah</strong> it is still working in market. It is also desktop application, built on C-Sharp.</div>
                             <div className='cal_btn mt-8 text-[#E0FFF8] bg-[#2AB090] hover:bg-[#488073] duration-300'>
                                 <button className='text-[16px]'>
                                     Let's get started
