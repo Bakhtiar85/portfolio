@@ -5,6 +5,11 @@ body {
     background: linear-gradient(128deg, rgb(8 8 8) 0%, rgb(85 85 85) 51%, rgb(229 229 229) 100%);
 }
 
+img#coverimg {
+    transform: scaleX(-1);
+    border-radius: 70%;
+}
+
 .item-flexed {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 400;

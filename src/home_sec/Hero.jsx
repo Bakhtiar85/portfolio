@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
           <div>
             {/* className="rounded-[50%] w-[350px] h-[350px] float-right" */}
-            <img src={user_img} alt="user_img" className='float-right' />
+            <img id='coverimg' src={user_img} alt="user_img" className='float-right' />
           </div>
         </div>
         <div className='text-white text-center md:text-left'>
