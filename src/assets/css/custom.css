@@ -1,0 +1,119 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:wght@800&display=swap');
+
+body {
+    background: linear-gradient(128deg, rgb(8 8 8) 0%, rgb(85 85 85) 51%, rgb(229 229 229) 100%);
+}
+
+.item-flexed {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+.font-ibmPlex {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.ls-1pr {
+    letter-spacing: 0.01em;
+}
+
+.lh-24px {
+    line-height: 24px;
+}
+
+.lh-28px {
+    line-height: 28px;
+}
+
+.company_logos {
+    width: 160px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #1b1b1b;
+}
+
+.project_div .tag {
+    width: 72px;
+    height: 24px;
+    padding: 0 10px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-bottom: 20px;
+}
+
+.name {
+    height: 28px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #c0c0c0;
+}
+
+.project_div .desp {
+    text-align: justify;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d7d7d7;
+}
+
+.project_div .cal_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 24px;
+    width: 189.89px;
+    height: 38px;
+    box-shadow: 0px 8px 30px rgba(0, 10, 255, 0.1);
+    border-radius: 4px;
+}
+
+.p_img {
+    width: 480px;
+    height: 300px;
+}
+
+.skill_div {
+    border: .1mm solid #474747;
+    /* background: linear-gradient(0deg, rgba(71,71,71,1) 0%, rgba(122,122,122,1) 59%); */
+    box-shadow: 0px 4px 16px -3px #474747;
+    color: #c0c0c0;
+
+    border: 1px solid;
+
+    border-image-source: linear-gradient(90deg, #484848 1.24%, rgba(27, 27, 27, 0) 100%);
+}
+
+.skill_div p {
+    border-top: .1mm solid #474747;
+    padding-top: 2px;
+}
+
+form#contact_me input, textarea {
+    padding: 8px;
+    background: #ffffff1a;
+    border-radius: 8px;
+    outline: none;
+    border-bottom: .1mm solid black;
+}
+
+div.banner-btwn md:py-20 py-8 md:px-0 px-2 {
+    background: linear-gradient(140deg, rgb(8 8 8) 0%, rgb(229 229 229) 100%);
+}
+
+div.banner-btwn>div {
+    color: white;
+}
