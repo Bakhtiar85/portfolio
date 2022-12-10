@@ -5,21 +5,22 @@ import user_img from '../assets/imgs/profile_img.webp'
 const Hero = () => {
   const langs = useRef(null);
   // https://dev.to/shareef/typing-effect-in-react-with-typed-js-and-hooks-5bl2
-  // useEffect(() => {
-  //   const typed = new Typed(langs.current, {
-  //     strings: ["HTML, CSS, JS", "Tailwind CSS", "jQuery, jQuery UI", "React JS", "PHP", "Laravel"], // Strings to display
-  //     // Speed settings, try diffrent values untill you get good results
-  //     startDelay: 300,
-  //     typeSpeed: 100,
-  //     backSpeed: 100,
-  //     backDelay: 100
-  //   });
+  useEffect(() => {
+    const typed = new Typed(langs.current, {
+      strings: ["HTML, CSS, JS", "Tailwind CSS, Bootstrap", "jQuery, jQuery UI", "React JS", "PHP", "Laravel"], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 300,
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 100,
+      loop: true
+    });
 
-  //   // Destropying
-  //   return () => {
-  //     typed.destroy();
-  //   };
-  // }, []);
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <div className='md:h-screen h-full md:py-0 w-full item-flexed'>

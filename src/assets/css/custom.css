@@ -6,8 +6,7 @@ body {
 }
 
 img#coverimg {
-    transform: scaleX(-1);
-    border-radius: 70%;
+    border-radius: 20px;
 }
 
 .item-flexed {
