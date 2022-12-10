@@ -9,6 +9,10 @@ img#coverimg {
     border-radius: 20px;
 }
 
+ul a.active{
+    border-bottom: .6mm solid gainsboro;
+}
+
 .item-flexed {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 400;

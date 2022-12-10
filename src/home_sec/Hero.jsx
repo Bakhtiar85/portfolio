@@ -23,7 +23,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='md:h-screen h-full md:py-0 w-full item-flexed'>
+    <div id='home' name='home' className='md:h-screen h-full md:py-0 w-full item-flexed'>
       <div className='flex flex-col md:gap-24 gap-12 py-20'>
         <div className='grid md:grid-cols-2 items-center text-white text-center md:text-left px-5'>
           <div className=''>
@@ -59,16 +59,16 @@ const Hero = () => {
             Firms & Companies
           </p>
           <div className='grid md:grid-cols-4 grid-cols-2 mt-5'>
-            <a href='#' className='company_logos item-flexed'>
+            <a href='https://www.upwork.com/freelancers/~017304c8ed7eb17c49' rel="noreferrer" target='_blank' className='company_logos item-flexed'>
               Upwork
             </a>
-            <a href='#' className='company_logos item-flexed'>
+            <a href='http://lipsumtechnologies.com/' rel="noreferrer" target='_blank' className='company_logos item-flexed'>
               LipsumTech
             </a>
-            <a href='#' className='company_logos item-flexed'>
+            <a href='https://seogla.com/' rel="noreferrer" target='_blank' className='company_logos item-flexed'>
               SEOGLA
             </a>
-            <a href='#' className='company_logos item-flexed'>
+            <a href='https://systemplus.co/' rel="noreferrer" target='_blank' className='company_logos item-flexed'>
               System Plus
             </a>
           </div>

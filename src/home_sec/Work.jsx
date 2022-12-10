@@ -5,7 +5,7 @@ import fp3 from '../assets/imgs/fp3.png'
 
 const Work = () => {
     return (
-        <div id='myWork' className='h-full w-full py-16'>
+        <div id='work' name="work" className='h-full w-full py-16'>
             <div className='max-w-[1000px] mx-auto h-full'>
                 <div className="mx-auto text-center mb-14">
                     <p className="font-raleway md:text-4xl text-lg text-[#c0c0c0]">

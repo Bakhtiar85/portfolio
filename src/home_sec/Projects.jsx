@@ -3,7 +3,7 @@ import siteData from '../assets/js/siteData.json';
 
 const Projects = () => {
   return (
-    <div id='myProjects' className=' md:h-screen h-full w-full py-20'>
+    <div id='projects' name="projects" className=' md:h-screen h-full w-full py-20'>
       <div className='max-w-[1000px] mx-auto h-full'>
         <div className="mx-auto text-center mb-7">
           <p className="font-raleway md:text-4xl text-lg text-[#bdbdbd]">
