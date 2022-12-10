@@ -10,6 +10,7 @@ const Footer = () => {
                         @gmail.com
                     </span>
                 </p>
+                <small>site is not dynamic yet!</small>
             </div>
         </div>
     )
