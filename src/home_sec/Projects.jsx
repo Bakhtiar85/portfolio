@@ -27,7 +27,7 @@ const Projects = () => {
                     </div>
                   </div>
                   <div className="absolute -top-[260px] left-[1px] right-[1px] h-[260px] group-hover:top-[2px] duration-1000 ease-in-out bg-black text-white px-4 py-2 text-justified">
-                   <strong> {element.tag}</strong> <br /> {element.des}
+                    <strong> {element.tag}</strong> <br /> {element.des} <br /> <br /> <a className='text-blue-400 hover:text-blue-30 hover:underline0' href={element.live} target='black'>Check here</a>
                   </div>
                 </div>
               )

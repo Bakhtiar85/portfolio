@@ -68,12 +68,12 @@
             "name": "React JS"
         },{
             "id": 8,
-            "image": "imgs/php.png",
-            "name": "PHP"
+            "image": "imgs/next.svg",
+            "name": "Next JS"
         },{
             "id": 9,
-            "image": "imgs/laravel.jpg",
-            "name": "Laravel"
+            "image": "imgs/mean-stack.jpg",
+            "name": "MEAN"
         },{
             "id": 10,
             "image": "imgs/googleAPI.png",
@@ -92,9 +92,9 @@
         {
             "id": 1,
             "image": "imgs/rp1.jpg",
-            "name": "Responsive Portfolio",
-            "live": "https://makhdoomabubakar.makhdumenterprises.com/",
-            "des": "This is a responsive dynamic web site build using React JS and Tailwind CSS. I build this for my self in first attempt.",
+            "name": "KYO Group",
+            "live": "https://www.kyogroup.io/",
+            "des": "This is a responsive dynamic web site build using MEAN and Bootstrap. I build this for Codezac.",
             "tag": "Completed"
         },{
             "id": 2,
@@ -107,8 +107,22 @@
             "id": 3,
             "image": "imgs/rp3.png",
             "name": "Block-Chain FYP",
-            "live": "https://makhdoomabubakar.makhdumenterprises.com/",
+            "live": "https://github.com/Bakhtiar85/block-chain-for-car-reg",
             "des": "This is my final year project (FYP). Frontend is on React JS and Tailwind CSS, and it is empowered by Block-Chain.",
+            "tag": "Completed"
+        },{
+            "id": 4,
+            "image": "imgs/next-admin-dashboard.jpg",
+            "name": "Next JS Admin Panel",
+            "live": "https://prosthodontic-pulse.vercel.app/",
+            "des": "A dashboard design, in Next JS and custom CSS.",
+            "tag": "Completed"
+        },{
+            "id": 5,
+            "image": "imgs/react-qr-bar-node.jpg",
+            "name": "QR - Bar Code Genrator",
+            "live": "https://react-qr-bar.netlify.app/",
+            "des": "MEAN application to create QR and Bar codes for specific user's data.",
             "tag": "Completed"
         }
     ]

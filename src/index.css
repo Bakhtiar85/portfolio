@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.banner-btwn {
+    background: linear-gradient(11deg, #0000005e 0%, #ffffff54 70%);
+}

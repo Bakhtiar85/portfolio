@@ -7,7 +7,7 @@ const Hero = () => {
   // https://dev.to/shareef/typing-effect-in-react-with-typed-js-and-hooks-5bl2
   useEffect(() => {
     const typed = new Typed(langs.current, {
-      strings: ["HTML, CSS, JS", "Tailwind CSS, Bootstrap", "jQuery, jQuery UI", "React JS", "PHP", "Laravel"], // Strings to display
+      strings: ["HTML, CSS, JS", "Tailwind CSS, Bootstrap", "jQuery, jQuery UI", "MEAN", "MERN", "Next JS"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 300,
       typeSpeed: 100,
@@ -58,7 +58,7 @@ const Hero = () => {
           <p className="ls-1pr text-2xl">
             Firms & Companies
           </p>
-          <div className='grid md:grid-cols-4 grid-cols-2 mt-5'>
+          <div className='grid md:grid-cols-4 grid-cols-2 gap-y-5 mt-5'>
             <a href='https://www.upwork.com/freelancers/~017304c8ed7eb17c49' rel="noreferrer" target='_blank' className='company_logos item-flexed'>
               Upwork
             </a>
@@ -70,6 +70,9 @@ const Hero = () => {
             </a>
             <a href='https://systemplus.co/' rel="noreferrer" target='_blank' className='company_logos item-flexed'>
               System Plus
+            </a>
+            <a href='https://codezac.com/' rel="noreferrer" target='_blank' className='company_logos item-flexed'>
+              Codezac
             </a>
           </div>
         </div>
